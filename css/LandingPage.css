@@ -1,0 +1,152 @@
+#enterStop {
+  position:  absolute ;
+  width:40%;
+  top: 30%;
+  left: 30%;
+}
+#enterStopResults {
+  position:  absolute ;
+  width:15%;
+  top: 30%;
+  left: 20%;
+}
+#loading {
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+#title {
+  position: absolute;
+  top:12%;
+  left: 40%;
+  font-size: 2vw;
+  color:blue;
+}
+#searchBar{
+  padding: 1.2%;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+#stopheader{
+  border:2px solid grey;
+  padding :5px;
+  border-radius: 10px;
+}
+#stopNames{
+  position:  absolute ;
+  top: 25%;
+  left: 40%;
+}
+#stop {
+  padding-bottom: 5px;
+}
+#stop:hover {
+  cursor: pointer;
+  color:lightskyblue;
+}
+
+#availableOptions{
+  position:  absolute ;
+  top: 25%;
+  left: 65%;
+}
+
+.btn {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  width:auto;
+  height: fit-content;
+
+}
+
+button {
+  border-radius: 5px;
+  padding: 1%;
+  outline: none;
+  width:5vw;
+  height: 3vh;
+  background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+   height: auto;
+}
+.test_content {
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+   height: auto;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color:lightblue;
+  cursor: pointer;
+}
+
+
+#Favourite {
+  position: absolute;
+  right:2px;
+} 
+#FavouriteStop{
+  padding-bottom: 5px;
+}
+
+.history {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  width: auto;
+  height: auto;
+
+}
+#stopColor{
+  color:blue
+}
+#home{
+padding-right: 2vw;
+}
+#home:hover{
+  cursor: pointer;
+}
+
+#history {
+  padding-right: 2vw;
+}
+#stopOffline {
+  color: blue;
+}
